@@ -1,0 +1,19 @@
+[project]
+name = "resilience-hub"
+version = "1.0.0"
+dependencies = ["flet==1.0.4"]
+
+[tool.flet]
+product = "Resilience Hub"
+
+[tool.flet.app]
+module = "main.py"
+exclude = [
+    "src",
+    "public",
+    "index.html",
+    "package.json",
+    "package-lock.json",
+    "vite.config.js",
+    "eslint.config.js",
+]

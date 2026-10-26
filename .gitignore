@@ -1,0 +1,61 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Flet state and generated platform builds
+.flet/
+build/
+dist/
+
+# Android SDK, Gradle, Flutter, and Pub local state/caches
+.gradle/
+.android/
+.pub-cache/
+.pub/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+local.properties
+android-sdk/
+android-sdk-*/
+gradle-cache/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+secrets.*
+credentials.*
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.log
+logs/
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
